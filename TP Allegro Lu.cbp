@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TP Allegro Lu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TP Allegro Lu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/allegro5/include" />
+				</Compiler>
+				<Linker>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/allegro5/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TP Allegro Lu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libgdi32.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\allegro5\lib\liballegro-5.0.10-monolith-mt.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\allegro5\lib\liballegro_image-5.0.10-mt.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\allegro5\lib\liballegro_audio-5.0.10-mt.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\allegro5\lib\liballegro_acodec-5.0.10-mt.a" />
+		</Linker>
+		<Unit filename="allegro_stuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="allegro_stuff.h" />
+		<Unit filename="animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="animation.h" />
+		<Unit filename="boss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="boss.h" />
+		<Unit filename="chave.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chave.h" />
+		<Unit filename="flecha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="flecha.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="morcego.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="morcego.h" />
+		<Unit filename="personagem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="personagem.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
